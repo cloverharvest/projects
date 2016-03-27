@@ -1,0 +1,52 @@
+
+A user should be able to...
+
+See a beautiful game board on the page
+   -background (png?)
+See at least two players on the board
+   -make two instances of an object(player1, player2)
+   -do i put a token png (?)
+Press a key on their keyboard to move their player one square
+   -assign key code
+See who won the round
+   -announcement box
+Reset the game / start a new round
+   -reset button
+
+*********
+Come back to earth:
+
+-Make a div
+-get an image
+-adjust in css
+-make an event listening click function
+-must move to right
+*********
+
+Study:
+-how to make a track
+-make a single player respond to click/move
+-research on animate()?
+-function.prototype __proto__ vs object prototype
+  'Every object within JavaScript has a “secret” property.'
+  'Use prototype on something that you want to be shared among all instance of that particular object'
+-what is svg vs div vs canvas
+-keycodes
+-how to stop
+-how to reset
+
+In an ideal world:
+Objects:
+
+Game - Player - Player 1
+              - Player 2
+    - Track   - Track 1
+              - Track
+
+Constructor function for Game
+
+Constructor function for Player
+
+Constructor function for Track
+
+Good luck!
