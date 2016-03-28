@@ -32,7 +32,7 @@ Study:
   'Use prototype on something that you want to be shared among all instance of that particular object'
 -what is svg vs div vs canvas
 -keycodes
--how to stop
+-how to .stop(), .finish()
 -how to reset
 
 In an ideal world:
@@ -49,4 +49,7 @@ Constructor function for Player
 
 Constructor function for Track
 
+Game prototype
+
+Player protoype
 Good luck!

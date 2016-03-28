@@ -1,24 +1,31 @@
 body {
-  background-color: #5FC3FB;
+  background: url(../image/bridge.png) no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
 }
 
-h3, h4 {
+/*body {
+  background-color: #5FC3FB;
+}*/
+
+h1, h2 {
   text-align: center;
   font-family: Avenir;
-  font-size: 20px;
-
+  font-weight: bold;
+  color: indigo;
+  /*font-size: 20px;*/
 }
 
 .racetrack {
   background-color: lightblue;
   margin-top: 120px;
+}
+
+div.racetrack {
   width: 800px;
   margin: auto;
   margin-top: 80px;
 };
-/*Not working*/
-.centerme {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
