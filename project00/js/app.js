@@ -58,7 +58,7 @@ Player.prototype.move = function(token) {
   $('#racer' + token).animate({
     'margin-left': '+=30px'
   }, 100);
-    if (parseInt($('#racer' + token).css('margin-left')) >= 780) {
+    if (parseInt($('#racer' + token).css('margin-left')) >= 860) {
       $(document).off();
 
       $('#racer1').stop();
