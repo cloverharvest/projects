@@ -1,4 +1,4 @@
-# projects
+# PROJECT00
 Project00-Racing Game
 *Race Across the Bay
 This is a racing game between a ferry boat and a car across the Golden Gate
