@@ -7,6 +7,7 @@ body {
 
 }
 
+/* TODO: Remove unused CSS and commented-out code from production versions of projects -jc */
 /*body {
   background-color: #5FC3FB;
 }*/
@@ -18,12 +19,12 @@ h1, h2 {
   color: indigo;
   /*font-size: 20px;*/
 }
-
+/* TODO: Remove unused CSS -jc */
 .racetrack {
   background-color: lightblue;
   margin-top: 120px;
 }
-
+/* TODO: Remove unused CSS -jc */
 div.racetrack {
   width: 800px;
   margin: auto;

@@ -14,16 +14,18 @@ $(document).ready(function(){
 
 //Make Game constructor function adding the two players as
 //properties and a winner property
-
+/* TODO: GREAT OOP! GOOD JOB! -jc */
 function Game() {
   this.racer1 = new Player(1);
   this.racer2 = new Player(2);
   this.winner = null;
 }
-
+/* TODO: GREAT OOP! GOOD JOB! -jc */
 function Player(racerName) {
   this.racerName = racerName;
 }
+/* TODO: Great comments. Thank you. -jc */
+
 //Add the initializer method to the Game prototype property
 //This listens to keypress events and then makes both tokens
 //move depending on keycode
@@ -58,11 +60,13 @@ Player.prototype.move = function(token) {
   $('#racer' + token).animate({
     'margin-left': '+=30px'
   }, 100);
+    /* TODO:  Break the logic in the if statement into a separate variable for easier readibility. -jc */
     if (parseInt($('#racer' + token).css('margin-left')) >= 860) {
       $(document).off();
 
       $('#racer1').stop();
       $('#racer2').stop();
+      /* TODO: Your alert function is huge and scary. Please consider breaking the internal logic into a variable and simply alert(result) or something similar. This is hard to read.  Great use of ternary operators! -jc */
       alert("Race Winner: " + (token === 1) ? "Racer " + token + " wins! You reached Marin safely!" : "Racer " + token + " wins! Your reached Marin safely!");
 
       setTimeout(function(){game.reset()}, 300);
